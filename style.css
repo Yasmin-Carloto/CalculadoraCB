@@ -1,0 +1,166 @@
+body{
+    background-color:#496F9B;
+}
+
+.tudo{
+    height: 490px;
+    width: 300px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: #111524;
+    margin-left: 36%;
+    margin-top: 4%;
+    border-radius: 20px;
+}
+
+.quadro-show{
+    position:relative;
+    display: inline-block;
+    background-color:#242C47;
+    color:#ffffff;
+    height: 150px;
+    width: 280px;
+    margin-top:8px;
+    margin-bottom: 8px;
+    margin-left: 3.5%;
+    border-radius: 20px;
+}
+
+.expressao{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 15px;
+    font-size: 20px;
+    color:#9F9F9F;
+}
+
+.resultado{
+    font-size: 100px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.botoes{
+    display: inline-block;
+    margin-left: 25px;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+.grupo-um{
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-left: 1px;
+}
+
+#grupo1{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+
+    background-color:#242C47;
+    color: white;
+}
+
+.grupo-dois{
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-left: 1px;
+}
+
+#grupo2{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color:#242C47;
+    color: white;
+}
+
+.grupo-tres{
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-left: 1px;
+}
+
+#grupo3{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: #242C47;
+    color: white;
+}
+
+.grupo-quatro{
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-left: 1px;
+}
+
+#grupo4{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color:#242C47;
+    color: white;
+}
+
+.grupo-cinco{
+    display: inline-block;
+    margin-bottom:3px;
+    margin-left: 1px;
+}
+
+#grupo5{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color:#242C47;
+    color: white;
+}
+
+.grupo-igual{
+    display: inline;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 3px;
+    margin-left: 4px;
+}
+
+#grupoigual{
+    margin-left: 1px;
+    width: 60px;
+    height: 121.4px;
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: #FF009D;
+    color:#242C47;
+    color: white;
+}
+
+#operador{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color:#242C47;
+    color:#FF009D;
+}
+
+#grupo1:hover, #grupo2:hover, #grupo3:hover, #grupo4:hover, #grupo5:hover, #operador:hover, #grupoigual:hover{
+    cursor:pointer;
+    background-color: #4D4D4D;
+}
