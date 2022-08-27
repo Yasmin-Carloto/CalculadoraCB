@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <script src="script.js"> </script>
+    <script src="../script/script.js"> </script>
     <title>Calculadora CB</title>
 
 
 </head>
-<body>
+<body onload="numeros()">
    <div class="tudo">
         <div class="quadro-show" id="quadro">
             <div class="expressao" id="expressao">33+34</div>
@@ -19,24 +19,24 @@
 
         <div class="botoes">
             <div class="grupo-um">
-                <input type="button" id="operador" value="⌫">
-                <input type="button" id="operador" value="%">
-                <input type="button" id="operador" value="÷">
-                <input type="button" id="operador" value="X">
+                <input class="operador" type="button" id="operador" value="⌫">
+                <input class="operador" type="button" id="operador" value="%">
+                <input class="operador" type="button" id="operador" value="÷">
+                <input class="operador" type="button" id="operador" value="X">
             </div>
 
             <div class="grupo-dois">
                 <input type="button" id="grupo2" value="7">
                 <input type="button" id="grupo2" value="8">
                 <input type="button" id="grupo2" value="9">
-                <input type="button" id="operador" value="-">
+                <input class="operador" type="button" id="operador" value="-">
             </div>
 
             <div class="grupo-tres">
                 <input type="button" id="grupo3" value="4">
                 <input type="button" id="grupo3" value="5">
                 <input type="button" id="grupo3" value="6">
-                <input type="button" id="operador" value="+">
+                <input class="operador" type="button" id="operador" value="+">
             </div>        
             
             <div class="grupo-quatro">
@@ -46,13 +46,13 @@
             </div>
 
             <div class="grupo-igual">
-                <input type="button" id="grupoigual" value="=">
+                <input class="operador" type="button" id="grupoigual" value="=">
             </div>
 
             <div class="grupo-cinco">
                 <input type="button" id="grupo5" value="0">
                 <input type="button" id="grupo5" value=".">
-                <input type="button" id="grupo5" value="AC">
+                <input class="operador"type="button" id="grupo5" value="AC">
             </div>
 
             
