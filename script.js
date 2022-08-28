@@ -1,5 +1,11 @@
 function inserir(i){
-    document.getElementById('resultado').innerHTML += i;
+    const resultado = document.getElementById('resultado');
+    if (resultado.innerHTML == "0"){
+        resultado.innerHTML += i;
+        resultado.innerHTML = resultado.innerHTML.substring(1);
+    }else{       
+        resultado.innerHTML += i;
+    }
  }
  
  function numeros(){
