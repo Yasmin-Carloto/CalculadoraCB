@@ -10,7 +10,7 @@
 
 
 </head>
-<body onload="numeros()">
+<body onload="numeros()" onclick="vazio()">
    <div class="tudo">
         <div class="quadro-show" id="quadro">
             <div class="expressao" id="expressao">33+34</div>
@@ -19,7 +19,7 @@
 
         <div class="botoes">
             <div class="grupo-um">
-                <input class="operador" type="button" id="operador" value="⌫">
+                <input class="operador" type="button" id="operador" onclick="apagar()" value="⌫">
                 <input class="operador" type="button" id="operador" value="%">
                 <input class="operador" type="button" id="operador" value="÷">
                 <input class="operador" type="button" id="operador" value="X">
@@ -52,7 +52,7 @@
             <div class="grupo-cinco">
                 <input type="button" id="grupo5" value="0">
                 <input type="button" id="grupo5" value=".">
-                <input class="operador"type="button" id="grupo5" value="AC">
+                <input class="operador"type="button" id="grupo5" onclick="apagarTudo()" value="AC">
             </div>
 
             
