@@ -1,13 +1,27 @@
-function inserir (num) {
+function inserir (num){
     const resultado = document.getElementById('resultado');
-    if(resultado.innerHTML == '0'){
-        resultado.innerHTML += num;
-        resultado.innerHTML = resultado.innerHTML.substring(1)
+    if (resultado.innerHTML == "0"){
+        if (num == "."){
+            resultado.innerHTML += num;
+        }
+        else{
+            resultado.innerHTML += num;
+            resultado.innerHTML = resultado.innerHTML.substring(1);
+        }
     }
     else{
-        resultado.innerHTML += num;
+        if (num == "."){
+            const listaArray = Array.from(resultado.innerHTML);
+            if (! listaArray.includes(".")){
+                resultado.innerHTML += num;
+            }
+        }
+        else{
+            resultado.innerHTML += num;
+        }
     }
 }
+
 
 function numeros(i){
     const input = Array.from(document.getElementsByTagName('input'));
@@ -32,5 +46,13 @@ async function vazio(){
     const resultado = document.getElementById('resultado');
     if (Boolean(resultado.innerHTML) == false){
         resultado.innerHTML = "0"
+    }
+}
+
+function limitadorDeCaracteres (){
+    const resultado = document.getElementById('resultado');
+    const tamanho = resultado.innerHTML.length;
+    if(resultado.innerHTML.length > 7){
+        resultado.innerHTML = resultado.innerHTML.substring(0, tamanho-1)
     }
 }

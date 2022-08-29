@@ -10,7 +10,7 @@
 
 
 </head>
-<body onload="numeros()" onclick="vazio()">
+<body onload="numeros()" onclick="vazio() ; limitadorDeCaracteres()">
    <div class="tudo">
         <div class="quadro-show" id="quadro">
             <div class="expressao" id="expressao">33+34</div>
@@ -51,7 +51,7 @@
 
             <div class="grupo-cinco">
                 <input type="button" id="grupo5" value="0">
-                <input type="button" id="grupo5" value=".">
+                <input type="button" id="grupo5" class="ponto" value=".">
                 <input class="operador"type="button" id="grupo5" onclick="apagarTudo()" value="AC">
             </div>
 
