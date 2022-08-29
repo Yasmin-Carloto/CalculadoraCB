@@ -9,8 +9,8 @@ function inserir(i){
         }
     }else{
         if (i == "."){
-            const listaTexto = Array.from(resultado.innerHTML);
-            if(! listaTexto.find(char => char=='.')){
+            const arrayTexto = Array.from(resultado.innerHTML);
+            if(! arrayTexto.includes(".")){
                 resultado.innerHTML += i;
             }
         }else{
@@ -26,7 +26,7 @@ function numeros(){
     input.map(
         function (element){
             if (element.classList[0] != 'operador'){
-                element.onclick = function (){inserir(element.value);}}
+                element.onclick = function (){inserir(element.value);limitarCaractere();}}
         })
 }
 
@@ -46,5 +46,13 @@ function checarVazio(){
     
     if (Boolean(resultado.innerHTML) == false){
         resultado.innerHTML = "0"
+    }
+}
+
+function limitarCaractere(){
+    const resultado = document.getElementById("resultado");
+    const tamanho = resultado.innerHTML.length
+    if (tamanho > 7){
+        resultado.innerHTML =  resultado.innerHTML.substring(0, tamanho-1);
     }
 }
