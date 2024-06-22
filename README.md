@@ -3,7 +3,7 @@
 Este projeto tem por finalidade ser uma calculadora, sendo meu primeiro projeto, em parceria com [Marcos Daniel](https://github.com/Daniel02md). 
 
 ## Acessar CalculadoCB
-A CalculadoraCB está hospedado no Github Pages neste link: []()
+A CalculadoraCB está hospedado no Github Pages neste link: [https://yasmin-carloto.github.io/CalculadoraCB/](https://yasmin-carloto.github.io/CalculadoraCB/)
 
 ## Tecnologias usadas no projeto
 * HTML
@@ -19,7 +19,7 @@ A CalculadoraCB está hospedado no Github Pages neste link: []()
 ## Rodar o projeto em sua máquina
 1. Coloque no terminal:
 ```
-git clone https://github.com/Yasmin-Carloto/Movimento-Interno-De-Veiculo.git
+git clone https://github.com/Yasmin-Carloto/CalculadoraCB.git
 ```
 2. Abrir com o VS CODE (ou IDE de preferência)
 
